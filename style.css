@@ -22,7 +22,6 @@ main {
   border-radius: 0.6rem;
   padding: 4.5rem 6.4rem 6.4rem;
   width: min(42.4rem, 90%);
-  height: min(42.8rem, 90%);
   margin: 0 auto;
   margin-top: -8rem;
   text-align: center;
@@ -38,23 +37,44 @@ p {
   margin-bottom: 2.4rem;
 }
 img:hover {
-  animation: animationCokie .2s;
-  animation-iteration-count: infinite
+  animation: animationCokie 0.2s;
+  animation-iteration-count: infinite;
 }
 @keyframes animationCokie {
   0% {
-    margin-top: +.3rem
+    margin-top: +0.3rem;
   }
   25% {
-    margin-right: -.6rem;
+    margin-right: -0.6rem;
   }
   50% {
-    margin-bottom: +.6rem;
+    margin-bottom: +0.6rem;
   }
   75% {
-    margin-left: -.6rem;
+    margin-left: -0.6rem;
   }
   100% {
-    margin-top: -.3rem
+    margin-top: -0.3rem;
   }
+}
+.lucky-phrase {
+  background-color: #e4edf1;
+  padding: 0.8rem 0.8rem 0.1rem;
+  margin-bottom: 4.4rem;
+}
+.lucky-phrase p {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.4rem;
+}
+.lucky img {
+  animation: none;
+}
+.lucky button {
+  border: none;
+  background-color: #ff9500;
+  padding: 1.8rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  margin-top: 3.2rem;
+  font-weight: 700;
 }
