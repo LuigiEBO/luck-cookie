@@ -13,6 +13,9 @@ body {
   place-items: center;
   font-family: "DM Sans", sans-serif;
 }
+.hide {
+  display: none;
+}
 main {
   background: #fff;
   box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
