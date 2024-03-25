@@ -57,10 +57,42 @@ img:hover {
     margin-top: -0.3rem;
   }
 }
+@keyframes phraseAnimation {
+  0% {
+
+  }
+  10% {
+
+  }
+  20% {
+
+  }
+  30% {
+
+  }
+  40% {
+
+  }
+  50% {
+
+  }
+  60% {
+
+  }
+  70% {
+  }
+  80% { 
+  }
+  90% {
+  }
+  100% {
+  }
+}
 .lucky-phrase {
   background-color: #e4edf1;
-  padding: 0.8rem 0.8rem 0.1rem;
+  padding: 0.8rem 0.8rem;
   margin-bottom: 4.4rem;
+  animation: phraseAnimation 3s;
 }
 .lucky-phrase p {
   font-family: "Dancing Script", cursive;
