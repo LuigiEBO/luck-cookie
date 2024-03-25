@@ -36,6 +36,9 @@ p {
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
 }
+.home img {
+  cursor: pointer;
+}
 img:hover {
   animation: animationCokie 0.2s;
   animation-iteration-count: infinite;
@@ -109,4 +112,5 @@ img:hover {
   border-radius: 0.4rem;
   margin-top: 3.2rem;
   font-weight: 700;
+  cursor: pointer;
 }
