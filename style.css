@@ -60,18 +60,20 @@ img:hover {
     margin-top: -0.3rem;
   }
 }
-@keyframes phraseAnimation {
+
+@keyframes smallAndBig {
   0% {
-    transform: translateY(100%);
-    display: none;
+    transform: scale(0) translateY(400%);
+  }
+  100% {
+    transform: scale(1) translateY(0%);
   }
 }
 .lucky-phrase {
   background-color: #e4edf1;
   padding: 0.8rem 0.8rem 0;
   margin-bottom: 4.4rem;
-  animation-name: phraseAnimation;
-  animation-duration: 1.5s;
+  animation: phraseAnimation 1.5s linear, smallAndBig 1.5s ease-out;
 }
 .lucky-phrase p {
   font-family: "Dancing Script", cursive;
