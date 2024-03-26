@@ -81,6 +81,7 @@ img:hover {
 }
 .lucky img {
   animation: none;
+  width: 22rem;
 }
 .lucky button {
   border: none;
